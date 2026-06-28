@@ -28,7 +28,7 @@ const SOCIALS = [
 const SKILLS = [
   {
     category: "languages",
-    items: ["JavaScript", "TypeScript", "Java", "Python", "SQL"],
+    items: ["JavaScript", "TypeScript", "Java", "Python"],
   },
   {
     category: "frontend",
@@ -152,13 +152,13 @@ const SECTIONS: Section[] = [
         <ProjectEntry
           name="onward-flashcard/"
           desc="AI-powered educational web app where users upload lecture text or images and automatically generate flashcards for studying."
-          tags={["Next.js", "Google Gemini"]}
+          tags={["Next.js", "Google Gemini", "TypeScript"]}
           href="https://github.com/melsmellow/Onward-Flashcard"
         />
         <ProjectEntry
           name="cat-rescue-website/"
           desc="Full-stack site built for a student cat rescuer to showcase rescued cats through stories and profiles — designed to reach more donors and manage rescue content dynamically."
-          tags={["Next.js", "MongoDB"]}
+          tags={["Next.js", "MongoDB", "TypeScript"]}
           href="https://github.com/Melsmelloow/cat-rescue"
         />
         <ProjectEntry
@@ -166,6 +166,12 @@ const SECTIONS: Section[] = [
           desc="Web-based quiz application built with Flask."
           tags={["Flask", "Python"]}
           href="https://github.com/Melsmelloow/quiz-app-flask"
+        />
+         <ProjectEntry
+          name="debt-note/"
+          desc="Collaborative bill-splitting and debt-tracking app — yes, the name is a Death Note pun. Multiple people update transactions in real time over a live session, so shared expenses settle without the group chat math."
+          tags={["Next.js", "MongoDB", "Socket.IO", "TypeScript"]}
+          href="https://github.com/Melsmelloow/debt-note"
         />
       </div>
     ),
